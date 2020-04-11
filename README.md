@@ -24,6 +24,7 @@ please use the following:
 
 ```dockerfile
 FROM openzula/base-app-kohana:latest
+COPY ./src/ /var/www/
 ```
 
 Then build the image by running the following command in the top most directly of your project:
